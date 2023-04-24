@@ -1,1 +1,6 @@
 /*  your css code here. If applicable */
+let level=document.getElementById("level");
+let ul=document.getElementsByTagName("ul")[0];
+ul.children.forEach(element => {
+    console.log(element.innerText);
+});
